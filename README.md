@@ -45,7 +45,7 @@ We visualized the counterfactual trajectories using PCA.
 * **Baseline Method (Orange):** Moves into low-density regions (off-manifold), creating unrealistic "adversarial" examples.
 * **Our VAE Method (Green):** Trajectory remains strictly within the high-density patient cluster (gray), ensuring the suggested changes are biologically plausible.
 
-![Manifold Visualization](results/manifold_visualization.png)
+![Manifold Visualization](Results/manifold_visualization.png)
 
 ---
 
@@ -58,6 +58,13 @@ We visualized the counterfactual trajectories using PCA.
 * **[BP]** Decrease Resting Blood Pressure by **12.0 mm Hg**
 * **[Diet]** Reduce Serum Cholesterol by **24.5 mg/dl**
 * **[Exercise]** Target Max Heart Rate change: **-18.5 bpm**
+## 📬 Contact
+**Gaurav Hadavale**
+* [LinkedIn](https://www.linkedin.com/in/gaurav-hadavale-5b3a5b291/)
+* [GitHub](https://github.com/gauravhadavale07)
+
+
+
 
 *Unlike baseline methods, this plan did not attempt to alter the patient's Age or Sex.*
 
