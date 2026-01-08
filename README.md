@@ -68,6 +68,3 @@ We visualized the counterfactual trajectories using PCA.
 
 *Unlike baseline methods, this plan did not attempt to alter the patient's Age or Sex.*
 
----
-
-## 📁 Repository Structure
