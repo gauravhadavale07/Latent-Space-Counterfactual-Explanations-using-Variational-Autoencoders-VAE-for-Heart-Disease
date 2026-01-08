@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
 
-
-##  Overview
+## 📌 Overview
 
 This project implements a **Trustworthy AI framework** for explaining "Black Box" medical models. While standard Deep Learning models can accurately predict Heart Disease, they often fail to explain *why* or *how* a patient can improve.
 
@@ -14,7 +13,7 @@ Standard explanation methods (like gradient-based perturbations) often generate 
 
 ---
 
-##  Methodology
+## 🔬 Methodology
 
 The framework consists of two coupled neural networks:
 
@@ -29,11 +28,9 @@ The framework consists of two coupled neural networks:
         1.  The Predictor classifies the decoded patient as "Healthy."
         2.  The generated patient remains close to the original data manifold (realistic).
 
+---
 
-
-
-
-##  Key Results
+## 📊 Key Results
 
 ### 1. Performance Metrics
 | Metric | Baseline (Threshold 0.5) | Optimized (Threshold 0.12) |
@@ -48,11 +45,11 @@ We visualized the counterfactual trajectories using PCA.
 * **Baseline Method (Orange):** Moves into low-density regions (off-manifold), creating unrealistic "adversarial" examples.
 * **Our VAE Method (Green):** Trajectory remains strictly within the high-density patient cluster (gray), ensuring the suggested changes are biologically plausible.
 
-![Manifold Visualization](Results/manifold_visualization.png)
+![Manifold Visualization](results/manifold_visualization.png)
 
+---
 
-
-##  Case Study Output (Example)
+## 📄 Case Study Output (Example)
 
 **Patient ID:** #24 (High Risk: 88%)
 **Goal:** Reduce Risk < 12%
